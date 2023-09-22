@@ -1,8 +1,8 @@
 replicaCount: 3
 
 image:
-  repository: paulbouwer/hello-kubernetes
-  tag: 1.8
+  repository: gcr.io/senzing/web-app-demo
+  tag: 2.4.11
   pullPolicy: IfNotPresent
 
 service:
