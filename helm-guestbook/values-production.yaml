@@ -1,9 +1,4 @@
 replicaCount: 3
 
-image:
-  repository: senzing/web-app-demo
-  tag: 2.4.11
-  pullPolicy: IfNotPresent
-
 service:
   type: LoadBalancer
